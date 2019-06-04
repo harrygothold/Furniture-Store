@@ -108,6 +108,11 @@ body {
   border: none;
   border-bottom: 0.1rem solid #12376e;
   outline: none;
+  transition: border-bottom 0.2s;
+}
+
+.search-input:focus {
+  border-bottom: 0.2rem solid #12376e;
 }
 
 .search-btn {
@@ -219,6 +224,7 @@ body {
 
 .dropdown-list-link:hover {
   color: #456a9f;
+  text-decoration: underline;
 }
 /* End Of Navbar */
 
